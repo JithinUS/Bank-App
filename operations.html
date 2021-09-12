@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="navbar">
+            <img src="logo.png" class="img1">
+            <img src="sbiyono.png" class="img2">
+
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" onclick="bank.balanceEnquiry()">Balance
+                        Enquiry</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  data-bs-toggle="modal" href="#exampleModal">Fund Transfer</a>
+
+                    <!-- <button class="nav-link active" aria-current="page" href="#" type="button"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Fund Transfer</button> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span id="user"></span></a>
+
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-secondary" onclick="bank.logOut()">Log Out</button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Amount Transfer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="To Account Number" class="form-control" id="toacno">
+                    <input type="number" placeholder="Enter Amount" class="form-control" id="amt">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="bank.fundTransfer()">Proceed</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="divopration">
+  
+</div>
+<div id="footer" class="text-white bg-dark">
+    <div class="footer1">
+        <h5 class="head">Headquarters address</h5>
+        <p class="mb-0">State Bank Bhavan</p>
+        <p class="mb-0"> Madame Cama Road,</p>
+        <p class="mb-0">Nariman Point</p>
+        <p class="mb-0">Mumbai, Maharashtra 400021.</p>
+    </div>
+    <div class="footer2">
+        <h5 class="follow">Follow Us</h5>
+        <a href="https://www.facebook.com/StateBankOfIndia/"><i style="color: whitesmoke;" class="fab me-3 fa-2x fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/theofficialsbi/?hl=en"><i style="color: whitesmoke;" class="fab me-3 fa-2x fa-twitter-square"></i></a>
+        <a href="https://twitter.com/TheOfficialSBI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i style="color: whitesmoke;" class="fab me-3 fa-2x fa-instagram-square"></i></a>
+    </div>
+</div>
+
+<script>
+    let logeduser = JSON.parse(sessionStorage.getItem(sessionStorage.key(0)))
+    user.innerHTML = logeduser.account_number
+
+</script>
+
+</html>

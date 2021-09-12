@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240,240,240)
+}
+.img1{
+    width: 126px;
+    height: 40px;
+    margin-left: 6%;
+}
+.img2{
+        margin-top: -4%;
+        width: 132px;
+        height: 53px;
+        margin-left: 79%;
+    
+}
+.div2{
+    width: 100%;
+    height: 552px;
+    float: left;
+}
+.div3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url('capture5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div4{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.div5 {
+    width: 45%;
+    height: 63%;
+    padding-top: 3%;
+    margin-left: 24%;
+    margin-top: 11%;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.p1{
+    
+    color: white;
+    font-size: 20px;
+    margin-left: 18%;
+}
+#loginbutton{
+    margin-left: 31%;
+}
+.p2{
+    color: white;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+#carousalImg{
+    width: 100%;
+    height: 552px;
+}
+#footer{
+    width: 100%;
+    height: 190px;
+    float: left;
+}
+.footer1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 17%;
+    padding-top: 2%;
+}
+.footer2{
+    width: 49%;
+    height: 100%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 19%;
+}
+
+/* userRegistrationPage */
+
+.div1Register{
+    width: 100%;
+    height: 552px;
+    float: left;
+    background-image: url('Capture4.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+    color: whitesmoke;
+
+}
+#Registerbutton{
+    margin-left: 35%;
+}
+
+/* userRegistrationPage */
+.div1login{
+    width: 100%;
+    height: 552px;
+    float: left;
+    background-image: url('Capture5.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+    color: whitesmoke;
+}
+#Loginbutton{
+    margin-left: 43%;
+}
+
+/* OperationPage */
+.divopration{
+    width: 100%;
+    height: 552px;
+    float: left;
+    background-image: url('Capture6.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10%;
+    color: whitesmoke;
+}
+@media (max-width: 400px){
+    .main{
+        width: 100%;
+        height: 992px;
+    }
+    .navbar{
+        height: 72px;
+    }
+    .img1 {
+        width: 83px;
+        height: 25px;
+        margin-left: 6%;
+    }
+    .div2{
+        height: 442px;
+    }
+    .div3{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .div4{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .div5 {
+        width: 55%;
+        height: 60%;
+        margin-left: 20%;
+        margin-top: 21%;
+        padding-top: 7%;
+    }
+    .p1 {
+        color: white;
+        font-size: 12px;
+        margin-left: 15%;
+    }
+    #loginbutton{
+        margin-left: 16%;
+    }
+    .p2 {
+        color: white;
+        margin-left: 13%;
+        margin-top: 5%;
+        font-size: 13px;
+    }
+    #footer{
+        width: 100%;
+        height: 124px;
+        float: left;
+    }
+    .footer1 {
+            font-size: 10px;
+            padding-left: 9%;
+            padding-top: 4%;
+        
+    }
+    .footer2{
+        padding-top: 4%;
+        font-size: 7px;
+    }
+    .head{
+        font-size: 15px;
+    }
+    .follow{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    i{
+        font-size: 10px;
+    }
+    .img2 {
+        margin-top: -13%;
+        width: 91px;
+        height: 40px;
+        margin-left: 64%;
+    }
+    /* userRegistrationPage */
+    .div1Register{
+        height: 442px;
+        padding-top: 28%;
+    }
+    #Registerbutton{
+        margin-left: 1%;
+    }
+
+
+    /* UserLoginPage */
+    .div1login{
+        height: 446px;
+        padding-top: 28%;
+    }
+    #Loginbutton {
+        margin-left: 28%;
+    }
+    /* OperationPage */
+    .divopration{
+        height: 446px;
+        padding-top: 28%;
+    }
+ 
+}
+@media (min-width: 411px) and (max-width: 731px)
+{
+    .img1 {
+        width: 106px;
+        height: 41px;
+        margin-left: 6%;
+    }
+    .div3{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .div4{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .p1 {
+        color: white;
+        font-size: 14px;
+        margin-left: 7%;
+    }
+    #loginbutton {
+        margin-left: 14%;
+    }
+    .p2 {
+        color: white;
+        margin-left: 8%;
+        margin-top: 10%;
+        font-size: 14px;
+    }
+    .main{
+        width: 100%;
+        height: 1101px;
+    
+    }
+    .img2 {
+        margin-top: -12%;
+        width: 93px;
+        height: 42px;
+        margin-left: 64%;
+    }
+      /* userRegistrationPage */
+      .div1Register{
+      padding-top: 33%;
+      }
+      #Registerbutton {
+        margin-left: 8%;
+    }
+
+      
+    /* UserLoginPage */
+    .div1login{
+        padding-top: 33%;
+    }
+    #Loginbutton {
+        margin-left: 34%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .div3{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .div4{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .p2 {
+        color: white;
+        margin-left: 24%;
+        margin-top: 5%;
+    }
+    .main{
+        width: 100%;
+        height: 1102px;
+    }
+    .footer1 {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding-left: 14%;
+    }
+    .img2 {
+        margin-top: -8%;
+        width: 132px;
+        height: 53px;
+        margin-left: 70%;
+    }
+
+
+  /* userRegistrationPage */
+    .div1Register{
+        height: 757px;
+        padding-top: 29%;
+    }
+
+       
+    /* UserLoginPage */
+    .div1login{
+        height: 757px;
+        padding-top: 29%;
+    }
+     /* OperationPage */
+     .divopration{
+        height: 757px;
+        padding-top: 28%;
+    }
+    
+ 
+
+}
+@media (min-width: 1024px) and (max-width: 1366px){
+    .navbar{
+        height: 168px;
+    }
+    .img1 {
+        width: 162px;
+        height: 67px;
+        margin-left: 6%;
+    }
+    .div3{
+        width: 100%;
+        height: 100%;
+        float: left;
+
+    }
+    .div4{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .p1 {
+        color: white;
+        font-size: 26px;
+        margin-left: 18%;
+    }
+    .p2 {
+        color: white;
+        margin-left: 21%;
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .main {
+        width: 100%;
+        height: 1103px;
+    }
+    .footer1{
+        padding-left: 12%;
+    }
+    .img2 {
+        margin-top: -13%;
+        width: 181px;
+        height: 95px;
+        margin-left: 70%;
+    }
+
+
+      /* userRegistrationPage */
+      .div1Register {
+        height: 1027px;
+    }
+
+    /* UserLoginPage */
+    .div1login{
+        height: 1027px;
+    }
+     /* OperationPage */
+     .divopration{
+        height: 1027px;
+    }
+
+}
