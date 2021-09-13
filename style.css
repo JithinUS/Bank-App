@@ -211,7 +211,10 @@ body{
         padding-top: 28%;
     }
     #Registerbutton{
-        margin-left: 4%;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    #rebutton{
         font-size: 12px;
     }
 
